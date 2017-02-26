@@ -1,0 +1,14 @@
+DRC Errors in cell Cell0 of file H:\My Documents\EE40001 CAD files\Coursework\laboratory#1\lab1#1(d).
+
+7.1 Metal1 Minimum Width = 3 Microns: (8.000,2.000)->(6.000,2.000)
+7.1 Metal1 Minimum Width = 3 Microns: (6.000,15.000)->(8.000,15.000)
+7.1 Metal1 Minimum Width = 3 Microns: (3.000,2.000)->(1.000,2.000)
+7.1 Metal1 Minimum Width = 3 Microns: (1.000,15.000)->(3.000,15.000)
+
+4 errors.
+
+DRC Merge/Gen Layers Elapsed Time: 0.000000 seconds.
+
+DRC Test Elapsed Time: 0.000000 seconds.
+
+DRC Elapsed Time: 0 seconds.

@@ -1,0 +1,14 @@
+DRC Errors in cell Cell0 of file H:\My Documents\EE40001 CAD files\Coursework\laboratory#1\lab1#1(b).
+
+3.1 Poly Minimum Width = 2 Lambda: (8.000,13.000)->(7.000,13.000)
+3.1 Poly Minimum Width = 2 Lambda: (7.000,31.000)->(8.000,31.000)
+3.1 Poly Minimum Width = 2 Lambda: (5.000,13.000)->(4.000,13.000)
+3.1 Poly Minimum Width = 2 Lambda: (4.000,31.000)->(5.000,31.000)
+
+4 errors.
+
+DRC Merge/Gen Layers Elapsed Time: 0.000000 seconds.
+
+DRC Test Elapsed Time: 0.000000 seconds.
+
+DRC Elapsed Time: 0 seconds.

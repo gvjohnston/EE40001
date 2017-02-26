@@ -1,0 +1,75 @@
+
+                 *********************************************
+                 *                                           *
+                 *             A I M - S p i c e             *
+                 *                                           *
+                 *             Student Version 3.5           *
+                 *                                           *
+                 *********************************************
+
+	Date: Thu Feb 23 01:25:37 2017
+	Circuit File: H:\My Documents\EE40001 CAD files\Coursework\laboratory#2\Lab2#1.cir
+	Analysis: DC Transfer Curves
+
+**************************  Circuit Description  **************************
+
+     1:  .MODEL CMOSN NMOS LEVEL=2 LD=0.250000U TOX=417.000008E-10
+     2:  + NSUB=6.108619E+14 VTO=0.825008 KP=4.919000E-05 GAMMA=0.172
+     3:  + PHI=0.6 UO=594 UEXP=6.682275E-02 UCRIT=5000
+     4:  + DELTA=5.08308 VMAX=65547.3 XJ=0.250000U LAMBDA=6.636197E-03
+     5:  + NFS=1.98E+11 NEFF=1 NSS=1.000000E+10 TPG=1.000000
+     6:  + RSH=32.740000 CGDO=3.105345E-10 CGSO=3.105345E-10 CGBO=3.848530E-10
+     7:  + CJ=9.494900E-05 MJ=0.847099 CJSW=4.410100E-10 MJSW=0.334060 PB=0.800000
+     8:  
+     9:  .MODEL CMOSP PMOS LEVEL=2 LD=0.227236U TOX=417.000008E-10
+    10:  + NSUB=1.056124E+16 VTO=-0.937048 KP=1.731000E-05 GAMMA=0.715
+    11:  + PHI=0.6 UO=209 UEXP=0.233831 UCRIT=47509.9
+    12:  + DELTA=1.07179 VMAX=100000 XJ=0.250000U LAMBDA=4.391428E-02
+    13:  + NFS=3.27E+11 NEFF=1.001 NSS=1.000000E+10 TPG=-1.000000
+    14:  + RSH=72.960000 CGDO=2.822585E-10 CGSO=2.822585E-10 CGBO=5.292375E-10
+    15:  + CJ=3.224200E-04 MJ=0.584956 CJSW=2.979100E-10 MJSW=0.310807 PB=0.800000
+    16:  
+    17:  M1 3 2 4 1 CMOSP L=2u W=25u AD=137.5p PD=61u AS=137.5p PS=61u 
+    18:  * M1 DRAIN GATE SOURCE BULK (12 10 14 35) 
+    19:  
+    20:  VB 1 0 DC 5V
+    21:  VGD 2 3
+    22:  VSD 4 3
+    23:  
+
+***************************  Device Parameters  ***************************
+
+
+
+**************************  Analysis Parameters  **************************
+
+	Source name #1 .. : VSD
+	Start value #1 .. : 0V
+	End value #1 .... : -10V
+	Increment value #1: -0.1V
+	Source name #2 .. : VGD
+	Start value #2 .. : -1V
+	End value #2 .... : -5V
+	Increment value #2: -1V
+
+
+
+**************  Options (Only those different from default)  **************
+
+
+
+*************************  Simulation Statistics  *************************
+
+	Total number of iterations...........: 1050
+	Total analysis time (sec)............: 0.012
+	Time spent in device loading (sec)...: 0.002
+	Time spent in L-U decomposition (sec): 0
+	Time spent in matrix solving (sec)...: 0
+
+***************************  Kernel Messages  *****************************
+
+Circuit: .MODEL CMOSN NMOS LEVEL=2 LD=0.250000U TOX=417.000008E-10
+
+Warning: vsd: has no value, DC 0 assumed
+Warning: vgd: has no value, DC 0 assumed
+
